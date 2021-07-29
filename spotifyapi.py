@@ -14,8 +14,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 birdy_uri = 'spotify:artist:716NhGYqD1jl2wI1Qkgq36'
-spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id='222e39e86f25492f8c56c838f06cc640',
-        client_secret='5022a75d4fc84e6a985cc428137854c5',))
+spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id='YOUR CLIENT_ID',
+        client_secret='YOUR CLIENT_SECRET',))
 
 
 results = spotify.user_playlist(birdy_uri, '7eMf6WibCyGLLZEHR3TjGT')
